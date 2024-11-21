@@ -28,7 +28,7 @@ for line in var:
 
 ### Каждое из слов «class», «function», «method» записать в байтовом типе без преобразования в последовательность кодов (не используя методы encode и decode) и определить тип, содержимое и длину соответствующих переменных.
 
-#### ([перейти к скрипту](https://github.com/shualyyyyy/gblinux/blob/main/delfiletodir.sh))
+#### ([перейти к скрипту](https://github.com/shualyyyyy/geekpython/blob/main/uni21.py))
 ```
 var = [b'class', b'function', b'method']
 
@@ -40,7 +40,7 @@ for line in var:
 
 ### Определить, какие из слов «attribute», «класс», «функция», «type» невозможно записать в байтовом типе
 
-#### ([перейти к скрипту](https://github.com/shualyyyyy/gblinux/blob/main/delfiletodir.sh))
+#### ([перейти к скрипту](https://github.com/shualyyyyy/geekpython/blob/main/uni33.py))
 
 ```
 var2 = b'attribute'
@@ -57,7 +57,7 @@ SyntaxError: bytes can only contain ASCII literal characters.'''
 ```
 ### Преобразовать слова «разработка», «администрирование», «protocol», «standard» из строкового представления в байтовое и выполнить обратное преобразование (используя методы encode и decode).'
 
-#### ([перейти к скрипту](https://github.com/shualyyyyy/gblinux/blob/main/delfiletodir.sh))
+#### ([перейти к скрипту](https://github.com/shualyyyyy/geekpython/blob/main/uni4.py))
 
 ```
 var6 = ['разработка', 'администрирование', 'protocol', 'standard']
@@ -66,13 +66,11 @@ for i in var6:
     print(a, type(a))
     b = bytes.decode(a, 'utf-8')
     print(b, type(b))
-    print('#'*15)
 
 ```
 ### Выполнить пинг веб-ресурсов yandex.ru, youtube.com и преобразовать результаты из байтовового в строковый тип на кириллице'''
 
-#### ([перейти к скрипту](https://github.com/shualyyyyy/gblinux/blob/main/delfiletodir.sh))
-
+#### ([перейти к скрипту](https://github.com/shualyyyyy/geekpython/blob/main/uni6-2.py))
 ```
 import subprocess
 
@@ -98,7 +96,7 @@ for ping_now in ping_resurs:
 
 ### Создать текстовый файл test_file.txt, заполнить его тремя строками: «сетевое программирование», «сокет», «декоратор». Проверить кодировку файла по умолчанию. Принудительно открыть файл в формате Unicode и вывести его содержимое
 
-#### ([перейти к скрипту](https://github.com/shualyyyyy/gblinux/blob/main/delfiletodir.sh))
+#### ([перейти к скрипту](https://github.com/shualyyyyy/geekpython/blob/main/uni7.py))
 
 ```
 import locale
